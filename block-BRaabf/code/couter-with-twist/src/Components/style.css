@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.counter-container {
+  grid-area: "counter";
+  display: grid;
+  justify-content: center;
+}
+
+.steps-container {
+  grid-area: "steps";
+}
+
+.max-container {
+  grid-area: "max";
+}
+
+.controls-container {
+  grid-area: "controls";
+  display: grid;
+  grid-template-areas: "steps max";
+  column-gap: 5rem;
+  justify-content: space-between;
+}
+
+.blocks-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.buttons-container {
+  grid-area: "buttons";
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 3rem;
+}
+
+.main-container {
+  display: grid;
+  grid-template-areas: "counter" "controls" "buttons";
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+/* Value Style */
+.value-item {
+  background-color: rgb(33, 52, 94);
+  color: white;
+  padding: 1rem;
+  width: 40px;
+}
+
+.button-item {
+  background-color: rgb(48, 186, 103);
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  border: 0;
+}
+
+.text-style {
+  font-size: 3rem;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+.count {
+  font-size: 3rem;
+  font-weight: 900;
+  transform: scale(1.2, 1.2);
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.selected-block {
+  background-color: white;
+  color: rgb(33, 52, 94);
+  border: 1px solid rgb(33, 52, 94);
+}
