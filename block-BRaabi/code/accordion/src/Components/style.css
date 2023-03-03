@@ -1,0 +1,33 @@
+.container-div {
+  background-color: orchid;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.paragraph.selected {
+  display: block;
+  transition: all 1s;
+}
+
+* {
+  transition: all 1s;
+}
+
+.paragraph {
+  background-color: yellow;
+  padding: 2rem;
+}
+
+.heading {
+  padding: 2rem;
+  background-color: green;
+  font-weight: 900;
+}
+
+.hide {
+  /* display: none; */
+  visibility: hidden;
+  padding: 0;
+  margin: 0;
+  height: 0;
+}
