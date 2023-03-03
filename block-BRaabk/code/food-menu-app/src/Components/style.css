@@ -1,0 +1,53 @@
+.card {
+  width: 350px;
+  border: 1px solid brown;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.card-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-container {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 2px solid brown;
+  padding: 1rem;
+}
+
+.tag {
+  margin: 0 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tag-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.heading-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.heading {
+  text-transform: uppercase;
+}
+.price {
+  text-align: right;
+}
+
+.desc {
+  text-transform: capitalize;
+  line-height: 2rem;
+}
