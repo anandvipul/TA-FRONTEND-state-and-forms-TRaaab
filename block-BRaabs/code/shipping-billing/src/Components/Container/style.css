@@ -1,0 +1,31 @@
+.form-item {
+  margin: 10px auto;
+}
+
+input {
+  margin-left: 2rem;
+}
+
+form {
+  border: 1px solid red;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.billing-form {
+  position: relative;
+}
+
+.check {
+  position: absolute;
+  top: 10px;
+}
+
+h1 {
+  text-align: center;
+}

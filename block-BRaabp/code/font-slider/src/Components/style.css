@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Golos+Text&family=Montserrat:wght@100&family=Noto+Sans+JP:wght@100&family=Noto+Sans:wght@100&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Roboto:wght@100&family=Tilt+Neon&family=Tilt+Warp&display=swap");
+
+.main-container {
+  display: grid;
+  margin: 1rem;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+}
+.header-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  border: 1px solid maroon;
+  margin: 1rem 3rem;
+  padding: 2rem;
+  align-content: center;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+input {
+  font-size: 2rem;
+  border-radius: 1rem;
+  border: 0.5px solid red;
+  padding: 1rem;
+}
+
+.fontCard {
+  border: 0.5px solid red;
+  width: 300px;
+  height: 250px;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.fonts-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 1rem;
+  gap: 2rem;
+}
