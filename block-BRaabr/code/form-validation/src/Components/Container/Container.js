@@ -15,6 +15,12 @@ class Container extends React.Component {
     this.fileInput = React.createRef();
   }
 
+  handleSubmit = (event) => {
+    event.preventDefault();
+    let name = event.target.name;
+    console.dir(this.fileInput.current.files[0]);
+  };
+
   handleChange = (event) => {
     event.preventDefault();
     let type = event.target.name;
@@ -26,6 +32,8 @@ class Container extends React.Component {
           [`${event.target.name}`]: event.target.value,
         };
       });
+    } else {
+      this.handleSubmit(event);
     }
   };
 
@@ -65,7 +73,6 @@ class Container extends React.Component {
               type="file"
               id="file"
               name="file"
-              value={this.state.file}
               onChange={this.handleChange}
             />
           </div>

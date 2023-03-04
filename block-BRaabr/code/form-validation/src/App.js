@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import Container from "./Components/Container/Container";
+import Validation from "./Components/Validation/Validation";
 import "./Components/style.css";
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Container />
+      {/* <Container /> */}
+      <Validation />
     </div>
   );
 }
